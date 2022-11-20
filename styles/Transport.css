@@ -142,7 +142,7 @@ body{
 
 /* ================================ */
 .main_content {
-    height: 100vh;
+    height: 110vh;
     box-sizing: border-box;
     /* background: radial-gradient(red 30% yellow 40% green); */
     background-color: aqua;

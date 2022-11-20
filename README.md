@@ -13,6 +13,7 @@ All CSS, HTML and JS codes were created by brainstorming and there is no copied 
     In the sixth page, there was an idea to create "avatar creating page", but then because of the difficulty of the idea CSS code generator was solution. Likewise, in the last page there are four buttons and all of them are different types of generators. When user click to one of them there will occur special card with range-input, which will affect box in the bottom of the card when it will be changed. Also, in the bottom of thar special card user can get generated code for shape which user created by changing range-inputs.
 # Responsiveness of the webpages
 All web pages are responsive, and "MOTO G4" is chosen as the basis for adaptability for mobile devices, and "IPAD" for tablets.
+    Everyting in Desktop shows normally
 # Host of the page
 # link =>  WIUT_Student_00013836_Web_Technology.github.io/Free_Fire
 # link to github => https://github.com/AzizbekStudent/wiut_student_00013836_web_technology.github.io
