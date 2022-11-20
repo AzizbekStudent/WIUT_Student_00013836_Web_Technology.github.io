@@ -14,6 +14,7 @@ All CSS, HTML and JS codes were created by brainstorming and there is no copied 
 # Responsiveness of the webpages
 All web pages are responsive, and "MOTO G4" is chosen as the basis for adaptability for mobile devices, and "IPAD" for tablets.
     Everyting in Desktop shows normally
+    There is evidence in folder responsiveness of each webpage in picture format of all styles of responsiveness(Mobile, Tablet, Desktop)
 # Host of the page
 # link =>  WIUT_Student_00013836_Web_Technology.github.io/Free_Fire
 # link to github => https://github.com/AzizbekStudent/wiut_student_00013836_web_technology.github.io
