@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../styles/Contact_us.css">
+</head>
+<body>
+    <div class="header">
+        <div class="main_layer">
+           <div class="logo"><img src="../images/free-fire-logo-A51CAlcQ_brandlogos.net.svg" alt="" class="img"></div>
+           <nav class="nav_block">
+                <a href="../index.html" class="links">Home</a>
+                <a href="../web_pages/Maps.html" class="links">Maps</a>
+                <a href="../web_pages/Character.html" class="links">Characters</a>
+                <a href="../web_pages/Transports.html" class="links">Transports</a>
+                <a href="../web_pages/Guns.html" class="links">Guns</a>
+                <a href="../web_pages/Contact_us.html" class="links Home">Contact us</a>
+           </nav> 
+        </div><!--End of the main_layer-->
+    </div><!--header end is there-->
+    <div class="main_content">
+        <div class="chatting_block">
+
+        </div><!--end of the chatting block-->
+        <div class="mini_generators">
+            <div class="list_of_games">
+                <button class="btn" id="btn_1">Block radius</button>
+                <button class="btn" id="btn_2">Block color</button>
+                <button class="btn" id="btn_3">Block size</button>
+                <button class="btn" id="btn_4">Block padding</button>
+            </div>
+            <div class="changin_box_borders box_settings" id="change_block_radius">
+                <div class="inputs_list">
+                    <div>
+                        <p id="top_left">top-left corner</p>
+                        <input type="range" id="range_top_left" min="0" max="100" value="0" oninput="change_block()">
+                        <input type="text" id="text_top_left" value="0">
+                    </div>
+                    <div>
+                        <p id="top_right"> top-right corner</p>
+                        <input type="range" id="range_top_right" min="0" max="100" value="0" oninput="change_block()">
+                        <input type="text" id="text_top_right" value="0">
+                    </div>
+                    <div>
+                        <p id="bottom_left"> bottom-left corner</p>
+                        <input type="range" id="range_bottom_left" min="0" max="100" value="0" oninput="change_block()">
+                        <input type="text" id="text_bottom_left" value="0">
+                    </div>
+                    <div>
+                        <p id="bottom_right">bottom-right corner</p>
+                        <input type="range" id="range_bottom_right" min="0" max="100" value="0" oninput="change_block()">
+                        <input type="text" id="text_bottom_right" value="0">
+                    </div>
+                </div>
+                <div class="block_element" id="block_element"></div>
+                <input type="text" id="final_code">
+            </div><!--End of the changing_box_borders-->
+            <div class="changing_the_color box_settings" id="changing_the_color">
+                <div>
+                    <p>R:</p>
+                    <input type="range" class="input_design" id="Red" min="0" max="255" value="0" oninput="change_color()">
+                    <input type="text" class="input_design" id="Red_text" value="0">
+                </div>
+                <div>
+                    <p>G:</p>
+                    <input type="range" class="input_design" id="Green" min="0" max="255" value="0" oninput="change_color()">
+                    <input type="text" class="input_design" id="Green_text" value="0">
+                </div>
+                <div>
+                    <p>B:</p>
+                    <input type="range" class="input_design" id="Blue" min="0" max="255" value="0" oninput="change_color()">
+                    <input type="text" class="input_design" id="Blue_text" value="0">
+                </div>
+                <div class="block_color" id="block_color"></div><!--Our demonstrating object-->
+                <input type="text" class="input_design" id="changing_color" value="background color:">
+            </div><!--End of the changing the color-->
+            <div class="change_box_size box_settings" id="change_box_size">
+                <div>
+                    <p>Height</p>
+                    <input type="range" class="input_design" id="height_size" min="0" max="500" value="100" oninput="change_the_size()">
+                    <input type="text" class="input_design" id="height_size_text" value="100">
+                </div>
+                <div>
+                    <p>Width</p>
+                    <input type="range" class="input_design" id="width_size" min="0" max="600" value="100" oninput="change_the_size()">
+                    <input type="text" class="input_design" id="width_size_text" value="100">
+                </div>
+                <div class="result_size" id="result_size"></div>
+                <input type="text" class="input_design" id="result_size_text">
+            </div><!--End of the box size-->
+            <div class="changing_the_padding box_settings" id="changing_the_padding">
+                <div>
+                    <p>Top</p>
+                    <input type="range" class="input_design" id="top_padding" min="0" max="100" value="0" oninput="change_padding()">
+                    <input type="text" class="input_design" id="top_padding_text" value="0">
+                </div>
+                <div>
+                    <p>Right</p>
+                    <input type="range" class="input_design" id="right_padding" min="0" max="100" value="0" oninput="change_padding()">
+                    <input type="text" class="input_design" id="right_padding_text" value="0">
+                </div>
+                <div>
+                    <p>bottom</p>
+                    <input type="range"  class="input_design" id="bottom_padding" min="0" max="100" value="0" oninput="change_padding()">
+                    <input type="text" class="input_design" id="bottom_padding_text" value="0">
+                </div>
+                <div>
+                    <p>Left</p>
+                    <input type="range" class="input_design" id="left_padding" min="0" max="100" value="0" oninput="change_padding()">
+                    <input type="text" class="input_design" id="left_padding_text" value="0">
+                </div>
+                <div class="padding_block" id="padding_block"><p>Some text</p></div>
+                <input type="text" class="input_design" id="padding_block_text">
+            </div><!--End of the changing the padding-->
+        </div>
+    </div><!--end of the Main_content-->
+    <div class="line_footer_decor"></div>
+    <div class="footer">
+        <a href="#" class="footer_logo"><img src="../images/Garena.png" alt="Garena logo" class="Footer_garena"></a>
+        <div class="name_of_company"><h1>Garena</h1></div>
+        <div class="footer_links">
+            <a href="../web_pages/Contact_us.html" class="privacy_link links links_bottom"> Privacy</a>
+            <a href="../web_pages/Contact_us.html" class="For_Parents links links_bottom">For parents FAQ</a>
+        </div><!--Footer_links end-->
+    </div><!--End of the footer-->
+    <script src="../scripts/generator.js"></script>
+</body>
+</html>

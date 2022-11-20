@@ -1,0 +1,407 @@
+body{
+    font-size: 10px;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Student ID: 00013836 */
+
+.empty{
+    height: 7vh;
+    width: 100%;
+    background-color: aqua;
+
+}
+.header { /* main container of the header*/
+    background-color:rgb(59, 13, 13) ;
+    height: 15vh;
+}
+
+.main_layer{
+    margin-top: 0.4rem;
+     display: flex;
+     justify-content: space-between;
+}
+.logo {
+    padding: 0.5rem;
+    height: 90px;
+    width: 300px;
+    max-width: 28%;
+    background-color: aliceblue;
+    opacity: 80%;
+}
+
+.nav_block {
+    padding: 0.3rem;
+    font-size: 2rem;
+    margin-top: 0.6rem;
+    max-width: 80%;
+    z-index: 100;
+}
+
+.links {  /*links with default settings*/
+    margin-top: 0.2rem;
+    padding: 0.25rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    border-left: 0.4rem solid chartreuse;
+    text-decoration: none;
+    color: aliceblue;
+}
+.Home {
+    color: chartreuse;
+    text-decoration: underline;
+    border-bottom: 0.2rem solid chartreuse;
+
+}
+.links:hover {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: chartreuse;
+    text-decoration: underline;
+    border-right: 0.2rem solid chartreuse;
+    border-bottom: 0.2rem solid chartreuse;
+    border-radius: 0.5rem;
+    transition: 1s;
+}
+
+.line_footer_decor{
+    border-top: 0.5rem solid rgb(122, 28, 28);
+    height: 2vh;
+    background-color: black;
+    margin-bottom: 0%;
+}
+.footer {
+    position: relative;
+    left: 0%;
+    bottom: 0%;
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.name_of_company{
+    color: white;
+    font-size: 2rem;
+}
+
+.Footer_garena {
+    height: 200px;
+    margin: 1rem 2rem;
+}
+.Footer_garena:hover{
+    height: 250px;
+    margin: 1rem 3rem;
+    transition: 1s;
+}
+
+.footer_links {
+    margin-top: 0%;
+    margin-right: 20%;
+    padding: 0.2rem;
+    justify-content: space-between;
+
+}
+
+.privacy_link:hover{
+    width: 4rem;
+    height: 3rem;
+    font-size: 2rem;
+    padding: 2rem;
+    transition: 1.5s;
+    background-color: rgba(14, 58, 58, 0.371);
+}
+
+.For_Parents:hover {
+    width: 4rem;
+    height: 3rem;
+    font-size: 2rem;
+    padding: 2rem;
+    transition: 1.5s;
+    background-color: rgba(14, 58, 58, 0.371);
+}
+.links_bottom {
+    color: rgb(49, 204, 47);
+    width: 4rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: rgb(85, 16, 16);
+}
+
+/* ================================ */
+.main_content{
+    display: flex;
+    flex-direction: column;
+    background-color: crimson;
+    background-image: url(../images/thumb-1920-1079489.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.list_of_characters{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    height: 250px;
+    background-color: transparent;
+}
+
+.info_of_char{
+    margin-top: 200px;
+    height: 700px;
+}
+
+.btn img{
+    height: 200px;
+}
+
+.btn {
+    background: rgb(2,0,36);
+    background: linear-gradient(158deg, rgba(2,0,36,1) 0%, rgba(47,198,74,0.5026961468181023) 35%, rgba(0,212,255,1) 100%);
+
+    color: #dc1411;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+
+}
+.btn p {
+    background-color: black;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.btn:hover{
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 300px;
+    transition: 1s;
+}
+.btn_active{
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 300px;
+
+}
+
+.style_of_card{
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 600px;
+    width: 80%;
+    margin: 2% 8%;
+    border: 2px solid chartreuse;
+}
+ .style_of_card .description {
+    color: white;
+    width: 500px;
+    font-size: 2rem;
+    background-color: black;
+}
+.column_1{
+    width: 100px;
+    background-color: aqua;
+    font-size: 1.3rem;
+}
+.column_2{
+    width: 300px;
+    font-size: 0.9rem;
+}
+.style_of_card:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,198,74,0.5026961468181023) 4%, rgba(15,39,44,0.40745805158000703) 84%);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.style_of_card img{
+    background-color: gold;
+    border-radius: 20px;
+}
+.style_of_card .level {
+    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+    color: rgb(255, 255, 95);
+    text-shadow:
+      /* White glow */
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+}
+
+/* Media query for mobile phones */
+
+@media all and (max-width: 500px){
+    .header{
+        height: 400px;
+        width: 100%;
+    }
+    .logo{
+        margin-top: 50px;
+        height: 20px;
+    }
+    .nav_block {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .nav_block a{
+        max-width: 70%;
+    }
+    .warning{
+        box-sizing: content-box;
+        max-width: 1024px;
+        min-width: 700px;
+    }
+        /* Footer */
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+    .name_of_company{
+        margin-left: 10%;
+    }
+    .footer_links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* Main content */
+    /* ******************** */
+    .main_content{
+        height: 530vh;
+        width: auto;
+    }
+    .info_of_char{
+        margin-top: 1650px;
+    }
+    .style_of_card{
+        display: flex;
+        flex-direction: column;
+        height: 1250px;
+    }
+    .style_of_card .ability .description{
+        width: 250px;
+        font-size: 18px;
+    }
+    .ability{
+        box-sizing: border-box;
+        width: 100px;
+    }
+
+    .level{
+        box-sizing: border-box;
+        width: 280px;
+    }
+
+}
+
+/* =============================== */
+/* Media query for tablets */
+@media all and (max-width: 1400px) and (min-width: 500px){
+    *{
+        width: 100%;
+    }
+    .header{
+        height: 400px;
+        width: 100%;
+    }
+    .logo{
+        margin-top: 20px;
+        margin-left: 1%;
+        height: 60px;
+    }
+    .nav_block {
+        margin-top: 20px;
+        max-width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .nav_block a{
+        width: 100px;
+        margin: 5%;
+    }
+    .warning{
+        box-sizing: border-box;
+        width: 100%;
+    }
+       
+    .footer {
+        max-width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        height: 20vh;
+    }
+    .footer_logo{
+        width: 300px;
+    }
+    .name_of_company{
+        margin-left: 8%;
+    }
+    .footer_links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* main content */
+    /* *********************/
+     .main_content{
+        height: 540vh;
+    }
+    .list_of_characters .btn {
+        box-sizing: border-box;
+        width: 384px;
+        height: 400px;
+    }
+    .info_of_char{
+        margin-top: 1650px;
+    }
+    .style_of_card{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .style_of_card .ability .description{
+        width: 500px;
+        font-size: 36px;
+    }
+    .ability{
+        box-sizing: border-box;
+        width: 100px;
+    }
+
+    .level{
+        box-sizing: border-box;
+        width: 560px;
+    }
+}
+
