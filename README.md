@@ -1,5 +1,6 @@
 # WIUT_Student_00013836_Web_Technology.github.io
 # Student ID: 00013836
+# This website was created to fulfill Web Technology modules requirements and does not represent an actual company or service
 Game named Free Fire was choosen as a company for the coursework for module Web Technology.
 All CSS, HTML and JS codes were created by brainstorming and there is no copied code from internet.
     In the home page there is information about game itself, and information about downloads and in this page there is no related JS code.
