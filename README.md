@@ -12,3 +12,4 @@ All CSS, HTML and JS codes were created by brainstorming and there is no copied 
 # Host of the page
 # link =>  WIUT_Student_00013836_Web_Technology.github.io/Free_Fire
 # link to github => https://github.com/AzizbekStudent/wiut_student_00013836_web_technology.github.io
+# link from NETLIFY => https://effortless-paletas-e1258b.netlify.app/
