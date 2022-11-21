@@ -169,3 +169,30 @@ function showChangePadding(){
         isShown = true
     }
 }
+
+// for contact us click
+let contact = document.getElementById('contact').addEventListener('click', show_pattern)
+let pattern = document.getElementById('pattern')
+pattern.style.display = 'none'
+let is_hidden =true
+function show_pattern(){
+    if(is_hidden){
+        pattern.style.display = 'block'
+        is_hidden = false
+    }
+    else{
+        pattern.style.display = 'none'
+        is_hidden = true
+    }
+}
+
+let nick = document.getElementById('nickname').value
+let email = document.getElementById('email').value
+let problem = document.getElementById('problem_of_the_user').value
+let btn_send = document.getElementById('send').addEventListener('click', send_problem)
+
+function send_problem(){
+    alert("Your problem is sent to our office")
+    alert(nick, " : ",email, " : ", problem, " : ", "\n", "Your problem send to our office" )
+    // i don't know why this codde is not working
+}

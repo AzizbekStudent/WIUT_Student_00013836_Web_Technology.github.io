@@ -210,9 +210,8 @@ aside ul li button {
     border: 20px solid red;
 }
 .dop_info{
-    /* background-color: darkblue; */
     width: 50%;
-    height: 430px;
+    height: 400px;
 }
 .Content_settings{
     display: block;
@@ -263,10 +262,14 @@ aside ul li button {
 /* ======================================== */
 /* Media query ==== for mobile devices*/
 @media all and (max-width: 500px){
+    body{
+        width: auto;
+
+    }
     .header{
         height: 400px;
-        width: 100%;
-        margin-top: 50px;
+        width: auto;
+
     }
     .logo{
         margin-top: 50px;
@@ -281,17 +284,12 @@ aside ul li button {
     .nav_block a{
         max-width: 70%;
     }
-    .warning{
-        box-sizing: content-box;
-        max-width: 1024px;
-        min-width: 700px;
-    }
         /* Footer */
     .footer {
-        width: 100%;
+        width: auto;
         display: flex;
         flex-direction: column;
-        height: 90vh;
+        height: 110vh;
     }
     .name_of_company{
         margin-left: 10%;
@@ -310,8 +308,9 @@ aside ul li button {
         display: flex;
         flex-direction: column;
         margin-top: 0%;
-        width: auto;
-        height: auto;
+        min-width: 300px;
+        max-width: 500px;
+        height: 100%;
     }
     .doubled_container{
         display: flex;
@@ -324,11 +323,11 @@ aside ul li button {
         display: none;
     }
     .Content_settings p{
-        width: 80%;
+        width: 200px;
 
     }
     .Content_settings{
-        width: 100%;
+        width: 300px;
     }
 
 }
@@ -395,7 +394,8 @@ aside ul li button {
         width: auto;
     }
     .Content_settings img{
-        width: auto/2;
+        width: 50%;
+        height: 50%;
     }
     .Content_settings .text_info{
         width: 150px;

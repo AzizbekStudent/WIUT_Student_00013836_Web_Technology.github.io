@@ -243,11 +243,7 @@ body{
 .style_of_card .level {
     background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
     color: rgb(255, 255, 95);
-    text-shadow:
-      /* White glow */
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
 }
 
 /* Media query for mobile phones */
