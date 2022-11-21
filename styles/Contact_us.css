@@ -259,7 +259,7 @@ body{
 #contact{
     font-size: 5rem;
     color: transparent;
-    animation: occuring   2s  forwards 2s 10;
+    animation: occuring   2s  infinite 2s;
     cursor: pointer;
     z-index: 10;
 }
