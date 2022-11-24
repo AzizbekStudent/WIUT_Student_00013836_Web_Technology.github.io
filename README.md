@@ -3,7 +3,7 @@
 # This website was created to fulfill Web Technology modules requirements and does not represent an actual company or service
 
 # General information
-Game named Free Fire was choosen as a company for the coursework for module Web Technology.
+Game named Free Fire was choosen as a company for the coursework for module Web Technology. The reason is that, this game is most played in Game Club called "Arena"
 All CSS, HTML and JS codes were created by brainstorming and there is no copied code from internet.
     In the home page there is information about game itself, and information about downloads and in this page there is no related JS code.
     In the second page there is information about maps inside of the game, however when user opens the page, initially, user will see buttons with the names of maps. After clicking particular button, then special map appears. This process is designed with functions in JavaScript and with card styling in CSS.
@@ -15,6 +15,8 @@ All CSS, HTML and JS codes were created by brainstorming and there is no copied 
 All web pages are responsive, and "MOTO G4" is chosen as the basis for adaptability for mobile devices, and "IPAD" for tablets.
     Everyting in Desktop shows normally
     There is evidence in folder responsiveness of each webpage in picture format of all styles of responsiveness(Mobile, Tablet, Desktop)
+#### Picture of the Game Club
+![ARENA GAME CLUB] (./Responsiveness/Arena_Game.jpg?raw=true "ARENA GAME CLUB")
 #### Host of the page
 #### link =>  WIUT_Student_00013836_Web_Technology.github.io/Free_Fire
 #### link to github => https://github.com/AzizbekStudent/wiut_student_00013836_web_technology.github.io
